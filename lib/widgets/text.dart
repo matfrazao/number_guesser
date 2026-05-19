@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class ZATextField extends StatefulWidget {
+class ZAText extends StatefulWidget {
   final String text;
   final double? fontSize;
   final String? fontName;
 
-  const ZATextField({
+  const ZAText({
     super.key,
     required this.text,
     this.fontSize,
@@ -14,10 +14,10 @@ class ZATextField extends StatefulWidget {
   });
 
   @override
-  State<ZATextField> createState() => ZATextFieldState();
+  State<ZAText> createState() => ZATextState();
 }
 
-class ZATextFieldState extends State<ZATextField> {
+class ZATextState extends State<ZAText> {
   @override
   Widget build(BuildContext context) {
     return Text(

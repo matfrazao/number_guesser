@@ -50,6 +50,6 @@ class RandomNumberGeneratorState extends State<RandomNumberGenerator> {
 
   @override
   Widget build(BuildContext context) {
-    return ZATextField(text: number.toString(), fontSize: 50, fontName: 'Bagel');
+    return ZAText(text: number.toString(), fontSize: 50, fontName: 'Bagel');
   }
 }
